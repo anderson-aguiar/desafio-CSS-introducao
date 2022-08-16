@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-white: #fff;
+    --color-blue: #222374;
+    --color-gray: #ccc;
+    --color-black: #000;
+
+
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+header h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.links-header {
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+
+}
+
+.links-header img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.space {
+    background-color: var(--color-blue);
+    height: 418px;
+    padding: 20px 15px;
+}
+
+.space h2 {
+    color: var(--color-white);
+    font-size: 32px;
+    padding: 20px 0px 20px 0px;
+}
+
+.space-card-description {
+    background-color: var(--color-gray);
+    height: 127px;
+    margin: 10px 0;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px 20px 20px;
+    font-size: 14px;
+}
+
+.space-card-description h3 {
+    font-size: 20px;
+}
+
+.modalities {
+    background-color: var(--color-white);
+    height: 880px;
+    padding: 20px 15px;
+}
+
+.modalities h2 {
+    color: var(--color-red);
+    font-size: 32px;
+    padding: 10px 0px 20px 0px;
+}
+
+.modalities-card {
+    background-color: var(--color-blue);
+    height: 106px;
+    margin: 10px 0;
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0px 20px 20px;
+    font-size: 14px;
+    color: var(--color-white);
+}
+
+.modalities-card h3 {
+    font-size: 20px;
+}
+
+footer {
+    background-color: var(--color-black);
+    height: 262px;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    justify-content: space-between;
+    padding: 20px 15px;
+        
+}
+
+.footer-items img {
+    width: 30px;
+    margin: 10px;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-items p{
+    margin-top: 15px;
+}
+#twitter-name{
+    padding-left: 4px;
+}
+
